@@ -5,103 +5,50 @@
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    min-height:100vh;
+    font-family: Arial, sans-serif;
 }
 
-/* Navbar */
-
 .navbar{
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.4);
     backdrop-filter: blur(10px);
 }
 
-.nav-link{
-    color:white !important;
-    margin-left:20px;
-}
-
-.nav-link:hover{
-    color:#ffc107 !important;
-}
-
-/* Hero */
-
 .hero{
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    background: linear-gradient(135deg,#0d6efd,#0dcaf0);
     color:white;
-    padding-top:80px;
+    padding:70px 0;
 }
 
 .hero h1{
-    font-size:60px;
+    font-size:55px;
     font-weight:bold;
 }
 
-.hero h2{
-    font-size:35px;
-}
-
-.hero p{
-    font-size:18px;
-}
-
-.hero-img{
-    animation: float 3s ease-in-out infinite;
-}
-
-@keyframes float{
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-20px);
-    }
-    100%{
-        transform: translateY(0);
-    }
-}
-
-/* Services */
-
-.services{
-    background:#f8f9fa;
-}
-
-.service-card{
-    background:white;
-    padding:40px;
-    text-align:center;
+.bank-card{
+    padding:30px;
+    border:none;
     border-radius:20px;
-    box-shadow:0 10px 20px rgba(0,0,0,.1);
-    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
 }
 
-.service-card:hover{
-    transform:translateY(-10px);
+.form-control{
+    height:50px;
+    border-radius:12px;
 }
 
-.service-card h3{
-    color:#0d6efd;
+.btn{
+    border-radius:12px;
+    height:50px;
+    font-weight:bold;
 }
 
-/* Stats */
-
-.stats{
+table thead{
     background:#0d6efd;
     color:white;
 }
 
-.stats h1{
-    font-size:50px;
+#searchResult{
     font-weight:bold;
-}
-
-/* Footer */
-
-footer{
-    background:#111;
-    color:white;
+    color:#0d6efd;
 }
