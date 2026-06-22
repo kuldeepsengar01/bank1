@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:20px;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+/* Hero */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background: linear-gradient(135deg,#0d6efd,#0dcaf0);
+    color:white;
+    padding-top:80px;
+}
+
+.hero h1{
+    font-size:60px;
+    font-weight:bold;
+}
+
+.hero h2{
+    font-size:35px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.hero-img{
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* Services */
+
+.services{
+    background:#f8f9fa;
+}
+
+.service-card{
+    background:white;
+    padding:40px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+}
+
+.service-card h3{
+    color:#0d6efd;
+}
+
+/* Stats */
+
+.stats{
+    background:#0d6efd;
+    color:white;
+}
+
+.stats h1{
+    font-size:50px;
+    font-weight:bold;
+}
+
+/* Footer */
+
+footer{
+    background:#111;
+    color:white;
+}
